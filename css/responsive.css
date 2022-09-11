@@ -1,0 +1,108 @@
+@media only screen and (min-width : 800px){
+
+    .menu-btn{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .title{
+        margin-bottom: 1%;
+    }
+
+    nav .title{
+        margin: 0px 2%;
+    }
+
+    #menu{
+        position:static;
+        align-items: center;
+        flex-direction: row;
+        padding: 0px;
+        width: 50%;
+        background-color: #ffffff00;
+    }
+
+    nav a{
+        padding: 5% 3%; 
+        z-index: 5;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    #loading{
+        left: 2%;
+    }
+
+    #content{
+        margin: 2%;
+        padding: 5% 0px;
+    }
+
+    .card-container{
+        flex-direction: row;
+        width: 90%;
+        margin: 0px;
+    }
+
+    .card{
+        margin: 3%;
+        justify-content: center;
+    }
+
+    .card:hover{
+        width: 40%;
+    }
+
+    .img-contain{
+        /* width: 80%; */
+        grid-area: img;
+    }
+
+    .img-collect{
+        flex-direction: row;
+        /* grid-area: img; */
+    }
+
+    .img-collect .img-desc{
+        width: 30%;
+        margin: 2%;
+        height: 200px;
+    }
+
+    .img-desc{
+        /* height: 50%; */
+        margin: 2% 0px;
+        align-items: flex-end;
+    }
+
+    .text{
+        margin: 2%;
+        padding: 3% 5%;
+        width: 80%;
+        /* flex-direction: row; */
+        display: grid;
+        grid-template-areas: ' judul judul ' 'img tex';
+        justify-content: space-between;
+    }
+
+    .text h3{
+        grid-area: judul;
+    }
+    
+    .text p{
+        grid-area: tex;
+    }
+
+    .even{
+        grid-template-areas: 'judul judul' 'tex img';
+    }
+
+    footer{
+        padding: 2%;
+    }
+}

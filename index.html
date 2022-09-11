@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,24 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asad Web | </title>
+    <title>The Future : Metaverse</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@100&display=swap"  rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            animation-name: none;
+        }
+
+        .cmd {
+            padding: 5%;
+            font-size: 18pt;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .cmd p {
+            color: #cfcfcf;
+        }
+
+        #content {
+            animation-name: changeBackground;
+            animation-duration: 30s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <h1>Metaverse</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">What's</a>
-                </li>
-                <li>
-                    <a href="#">Thr Big Company</a>
-            </ul>
-        </nav>
-    </header>
+
+<body onload="showContent()">
+    <div class="cmd">
+        <p>Running vmkernel64.sh...... </p>
+        <p>Running drcfile.bash....... </p>
+        <p>Checking disk storage...... </p>
+        <p>Initialized netmgr.dll..... </p>
+        <p>Executed netmgr.dll........ </p>
+        <p>Checking network........... </p><br>
+        <p>Downloading data from https://mverse.net/metaverse....</p><br>
+        <p>Installing metaverse....... </p><br>
+        <p>Info : Metaverse Ready to start</p><br><br>
+        <br>
+        <p>Starting The Metaverse....</p><br><br>
+    </div>
+    <div id="content">
+        <h1 class="title">METAVERSE</h1>
+        <div class="card-container">
+            <div class="card">
+                <h2>PENGERTIAN</h2><br>
+                <div class="card-desc">
+                    <p><br> Pelajari lebih lanjut apa itu Metaverse</p>
+                    <br>
+                    <a href="pengertian.html" class="btn-link">Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="card">
+                <h2>KEGIATAN</h2><br>
+                <div class="card-desc">
+                    <p><br> Lihat apa saja kegiatan yang bisa dilakukan dalam Metaverse</p>
+                    <br>
+                    <a href="kegiatan.html" class="btn-link">Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="card">
+                <h2>CONTOH</h2><br>
+                <div class="card-desc">
+                    <p><br> Lihat Contoh-contoh Metaverse yang ada dan yang akan datang</p>
+                    <br>
+                    <a href="contoh.html" class="btn-link">Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="by">
+            <p>Oleh</p>
+            <p>Muhammad Asaduddin </p>
+            <p>Politeknik Negeri Jakarta</p><br>
+        </div>
+        <a href="#contact" id="contact-btn" id="contact-btn"  class="text-link">Contact</a>
+    </footer>
+    <div id="contact">
+        <div class="exit">
+            <div class="menu-btn" id="ex-con">
+                <div class="bar"></div>
+                <div class="gap" style="margin:10%;"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="links">
+            <a href="https://instagram.com/asad_.din" class="logo" target="_blank">
+                <img src="https://img.icons8.com/material-outlined/48/ffffff/instagram-new--v1.png"/>
+            </a>
+            <a href="https://wa.me/+6281384725731" class="logo" target="_blank">
+                <img src="https://img.icons8.com/material-outlined/48/ffffff/whatsapp--v1.png"/>
+            </a>
+            <a href="https://github.com/M-Asaduddin" class="logo">
+                <img src="https://img.icons8.com/ios-glyphs/48/ffffff/github.png"/>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/intro.js"></script>
+    <script src="js/show_element.js"></script>
 </body>
+
 </html>
