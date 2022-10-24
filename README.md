@@ -3,4 +3,4 @@ Hasil web saya Untuk lomba Desain Web di Itechno Cup 2022 yang diselenggarakan o
 <br>(saya tidak lolos)
 
 # To view the web, please visit :<br>
-https://m-asaduddin.github.io/web_itechno/
+https://zachisoni.github.io/web_itechno/
